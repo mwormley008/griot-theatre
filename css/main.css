@@ -1,0 +1,48 @@
+.thumb{
+  max-height: 50%;
+}
+
+.flexbox-container {
+  display: flex;
+  background-color: solid black;
+  justify-content: space-evenly;
+}
+
+.flexbox-item {
+  width: 200px;
+  /* margin: 10opx; */
+  border: 3px solid black;
+  background-color: white;
+  align-self: center;
+}
+
+.flexbox-item-1 {
+  width: 300px;
+}
+
+cover {
+  height: 95vh;
+  position: relative;
+}
+
+.screen-text-1 {
+  position: absolute;
+  color: white;
+  top: 10vh;
+  left: 48vh;
+  z-index: 1;
+  font-size: 200px;
+}
+
+.screen-text-2 {
+  position: absolute;
+  color: white;
+  top: 40vh;
+  left: 48vh;
+  z-index: 1;
+  font-size: 200px;
+}
+
+h1{
+  font-size: 4vh;
+}
